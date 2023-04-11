@@ -7,6 +7,12 @@
       "name": "Arquivei"
     }
   ],
+  "repositories": [
+    {
+            "type": "vcs",
+            "url": "https://github.com/Jacq/prometheus_client_php.git"
+    }
+  ],
   "require": {
     "php": "^8.0 || ^8.1",
     "guzzlehttp/guzzle": "^7.4.2",
