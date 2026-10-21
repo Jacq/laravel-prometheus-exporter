@@ -279,7 +279,7 @@ class PrometheusExporter
         string $name,
         string $help,
         array $labels = [],
-        array $buckets = null
+        ?array $buckets = null
     ): Histogram {
         return $this->prometheus->getOrRegisterHistogram("", $name, $help, $labels, $buckets);
     }
